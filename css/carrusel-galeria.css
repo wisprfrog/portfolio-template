@@ -1,0 +1,34 @@
+.ancho-carrusel {
+  width: min(100%, 1300px);
+}
+
+.contenedor-carrusel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.contenedor-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: content-box;
+  width: 100%;
+  height: fit-content;
+  margin: 50px 0;
+}
+
+.columna-galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48%;
+  row-gap: 20px;
+}
+
+.columna-galeria img{
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,54 @@
+.barra-navegacion {
+  background-color: #212121;
+  height: 70px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.boton-menu{
+  width: fit-content;
+  height: 100%;
+  background-color: #212121;
+  border: none;
+}
+
+.boton-menu img {
+  width: auto;
+  height: 80%;
+}
+
+
+.lista-menu-burguer .pag-activa{
+  background-color: #212121 !important;
+  color: white !important;
+}
+
+.lista-menu {
+  width: 40%;
+  height: 100%;
+  column-gap: 30px;
+  justify-content: end;
+  align-items: center;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.lista-menu a{
+  font: 700px 10px "Oswald", sans-serif;
+  padding: 5px 0;
+  color: white;
+  text-decoration: none;
+  border-bottom: solid 1px transparent;
+  transition: border-color 0.3s ease;
+}
+
+.lista-menu .pag-activa{
+  border-bottom: solid 1px white;
+}
+
+.lista-menu a:hover{
+  border-bottom: solid 1px white;
+}
+
