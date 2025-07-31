@@ -72,10 +72,32 @@ footer {
   align-items: center;
   margin-top: 50px;
   padding: 40px 0;
+  text-align: center;
 }
 
-.contenedor-footer {
-  text-align: center;
+.texto-footer {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 0 20px;
+  border-right: solid 1px white;
+}
+
+.texto-footer p {
+  margin: 0 !important;
+}
+
+.redes-footer {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.redes-footer img{
+  width: auto;
+  height: min(25px, 8dvw);
+  margin: 0;
 }
 
 .contenedor-sobre-mi {
@@ -148,7 +170,7 @@ footer {
 #formulario button {
   font: var(--texto) !important;
   font-size: min(5dvw, 13px) !important;
-  
+
 }
 
 #formulario button {
@@ -185,24 +207,4 @@ footer {
   audio {
     width: 100%;
   }
-}
-
-.contenedor-adicional {
-  width: 100%;
-  height: fit-content;
-  margin: 100px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#link-adicional {
-  font: var(--texto);
-  font-size: min(4dvw, 14px) !important;
-  text-wrap: wrap;
-  color: #7066e0;
-}
-
-#link-adicional:hover {
-  color: #443e8a;
 }
